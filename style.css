@@ -1,0 +1,40 @@
+.grid {
+  border: 1px solid;
+  display: flex; /* used flex so, they do appear horizontally On Top on Each Other*/
+  flex-wrap: wrap;
+  height: 180px;
+  width: 180px;
+}
+
+.grid div{
+    height: 20px;
+    width: 20px;
+}
+
+.Ending-Block {
+    background-color: red;
+}
+
+.starting-Block {
+    background-color: blue
+}
+
+.c1 {
+    background-color: black;
+}
+
+.c2 , .c3 {
+    background-color: gray;
+}
+
+.l1 , .l2 , .l3 {
+    background-color: brown;
+}
+
+.l4 , .l5 , .lf2 , .lf3 {
+    background-color: lightblue;
+}
+
+.frog {
+    background-color: darkgreen; /* it's imp to add frog at last . so, they dont disappear when going through roads or logs . in case, if we are adding on top or any where but not last frog disappears when going through roads or logs */
+}
